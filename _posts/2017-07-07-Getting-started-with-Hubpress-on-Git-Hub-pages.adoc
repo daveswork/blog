@@ -1,0 +1,24 @@
+= Getting started with Hubpress on GitHub pages
+// See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
+// :hp-image: /covers/cover.png
+:published_at: 2017-07-07
+:hp-tags: HubPress, Blog, Open_Source,
+// :hp-alt-title: My English Title
+I've recently started setting up a website using GitHub pages, which, as the documentation indicates, is pretty much painless. 
+
+It starts out with simply forking the repo. 
+There's a conveniently placed button on Hubpress's main page for that. 
+I was already logged into my github account within the same browser session, so that went smoothly. 
+
+Once forked, the README.adoc provided instructions on the next steps.
+The first two sections were pretty much an introduction to Hubpress, with the actual initial configuration starts at section three. 
+
+Section three provides instructions for two major use cases, either using Hubpress in the document root for your GitHub pages subdomain, or using it in some other location (including some other subdomain). The main difference being which branch you'll be using. The "master" branch will be used in the document root, and the "gh-pages" branch for any other use case. 
+
+Clearly, I'm not using Hubpress as the document root for my GitHub Pages subdomain, so I followed the directions described in section 3.2.2  
+This was fairly straight forward as well. With a few minor edits I was able to get Hubpress up and running at https://daveswork.github.io/hubpress.io 
+
+I had one snag with the login page, where it kept on rejecting my credentials. At first I thought it might have been something related to using two factor authentication, however, the last issue was raised over a year ago, and seemed to have been resolved. The one implementation detail that seemed different was that most others appeared to have changed the name of the repo after it was forked, while mine still had the default "hubpress.io". I didn't think it would make a difference, but I went ahead and changed the repo name from "hubpress.io" to "blog" and voila! I was able to login to the admin panel and finally write my first post!
+
+
+
