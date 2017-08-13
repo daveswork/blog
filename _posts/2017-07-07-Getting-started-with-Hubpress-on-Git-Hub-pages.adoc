@@ -4,7 +4,9 @@
 :published_at: 2017-07-07
 :hp-tags: HubPress, Blog, Open_Source,
 // :hp-alt-title: My English Title
-I've recently started setting up a website using GitHub pages, which, as the documentation indicates, is pretty much painless. 
+
+I've recently started setting up a website using GitHub pages, which, as the documentation indicates, is pretty much painless. The next step was to start a blog. There are lot of options out there for blogging, but I wanted it hosted on GitHub. 
+Taking a look around, I noticed this particular project which, seems fairly current but I haven't heard much buzz on, so I decieded to take a look at it by actually implementing it!
 
 It starts out with simply forking the repo. 
 There's a conveniently placed button on Hubpress's main page for that. 
